@@ -1,0 +1,20 @@
+/*Nested If else*/
+
+#include <stdio.h>
+
+
+main()
+{
+int i;
+printf("Enter either 1 or 2");
+scanf("%d",&i);
+if(i==1)
+printf("C Language");
+else
+{
+if(i==2)
+printf(" Programming Language");
+else
+printf("Structured programming language");
+}
+}
